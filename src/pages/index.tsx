@@ -7,8 +7,7 @@ export default function Home() {
       <Head>
         <title>Board - Organizando suas tarefas</title>
       </Head>
-      <div>
-      
+      <div>      
         <h1 className={styles.title}>Board Project</h1>
       </div>
     
