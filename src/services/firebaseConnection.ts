@@ -1,5 +1,8 @@
-import firebase from "firebase/app";
-import "firebase/firestore";
+import React from 'react'
+import firebase from 'firebase/compat/app'
+import { initializeApp } from "firebase/app";
+
+import 'firebase/compat/firestore'
 
 
 let firebaseConfig = {
@@ -15,7 +18,7 @@ let firebaseConfig = {
 // Initialize Firebase
 if(!firebase.apps.length){
 
-    const app = initializeApp(firebaseConfig);
+    firebase.initializeApp(firebaseConfig);
 }
 
 
