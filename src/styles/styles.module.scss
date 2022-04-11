@@ -2,14 +2,20 @@
     max-width: 1120px;
     margin: 0 auto;
     padding: 0 2rem;
+    min-height: calc(100vh - 6rem);
 
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
+    
     img{
         margin-top: 2rem;
+    }
+
+    h3{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
     }
 
 }
@@ -67,6 +73,5 @@
     img:hover{
         transform: scale(1.2);
     }
-
 
 }

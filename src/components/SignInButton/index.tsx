@@ -4,6 +4,8 @@ import styles from './styles.module.scss'
 import { FaGithub } from 'react-icons/fa'
 import { FiX} from 'react-icons/fi'
 
+import Image from 'next/image'
+
 
 export function SignInButton(){
 
@@ -15,8 +17,9 @@ export function SignInButton(){
             type='button'
             className={styles.signInButton}
             onClick={()=>signOut()}            
-            >
-                <img className={styles.img} src={session.user.image} alt='Foto do usuario' />
+            >   <div>
+                    <Image objectFit='fill' width={35} height={35} className={styles.img} src={session.user.image} alt='Foto do usuario' />
+                </div>
                 Olá {session.user.name}
                 <FiX color='#737380' className={styles.closeIcon}
                 />                
