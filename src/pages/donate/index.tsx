@@ -57,7 +57,7 @@ export default function Donate({user}: DonateProps){
                 )}
 
                 <h1>Seja um apoiador deste projeto 🏆</h1>
-                <h3>Contribua com apenas <span>R$ 1,00</span></h3>
+                <h3>Contribua com apenas <span>R$ 1,00.</span></h3>
                 <strong>Apareça na nossa home, tenha funcionalidades exclusivas.</strong>
 
                 <PayPalButtons 
